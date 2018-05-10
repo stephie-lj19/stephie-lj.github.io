@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<link rel="stylesheet" href= "style.css">
+<link rel="icon" type="image/png" href="fav.png">
+<title>Stephanie Joseph</title>
+<style>
+ h3 {
+   text-decoration: underline
+ }
+ </style>
+</head>
+<body>
+
+<div class="header">
+<center><img src= "name.png"><center>
+</div>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Profile</a>
+  <a href="cv.html" class="active">Curriculum Vitae</a>
+  <a href="interests.html">Interests</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+<div class="row">
+  <div class="side">
+    <div id= "tl">
+    <div class="timeline">
+      <div class="container left">
+        <div class="content">
+          <h2>2015-2018</h2>
+          <p>University of Guyana</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2010-2015</h2>
+          <p>Queens' College</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>2005-2010</h2>
+          <p>Mae's Under 12 Primary School</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2004</h2>
+          <p>Rama Krishna Primary</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>2002-2003</h2>
+          <p>Dharmic Rama Krishna Nursery</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>1998</h2>
+          <p>Year of Birth</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="main">
+    <center><h1>Education, Achievements and more!</h1></center>
+    <div style="overflow-x:auto;">
+    <table align="center">
+      <caption><h2>Education</h2></caption>
+     <thead>
+      <tr>
+        <th scope="col">Level</th>
+        <th scope="col">Institution</th>
+        <th scope="col">Programme</th>
+        <th scope="col">Year</th>
+     </tr>
+     </thead>
+      <tbody>
+       <tr>
+        <th scope="rowgroup" rowspan="2">Tertiary</th>
+        <td>University of Guyana</td>
+        <td>Bachelor's Degree(Computer Science)</td>
+        <td>2016- Present</td>
+       </tr>
+        <tr>
+     <th scope="row"></th>
+         <td>Bachelor of Science (Environmental Studies)</td>
+         <td>2015-2016</td>
+       </tr>
+        <tr>
+         <th>Secondary</th>
+         <td>Queens' College</td>
+         <td></td>
+         <td>2010-2015</td>
+       </tr>
+       <tr>
+        <th scope="rowgroup" rowspan="2">Primary</th>
+        <td>Mae's Under 12 Primary</td>
+        <td></td>
+        <td>2005-2010</td>
+       </tr>
+       <tr>
+    <td>Rama Krishna Primary</td>
+        <td></td>
+        <td>2004-2005</td>
+      </tr>
+      <tr>
+       <th>Nursery</th>
+       <td>Dharmic Rama Krishna</td>
+       <td></td>
+       <td>2003-2005</td>
+     </tr>
+      </tbody>
+     </table>
+
+     <table align="center">
+       <caption><h2>Achievements</h2></caption>
+      <thead>
+       <tr>
+         <th scope="col">Exam</th>
+         <th scope="col">Course</th>
+      </tr>
+      </thead>
+       <tbody>
+        <tr>
+         <th>CSEC 2014</th>
+         <td>Mathematics(General)</td>
+        </tr>
+         <tr>
+          <th rowspan = "16">CSEC 2015</th>
+          <td>Queens' College</td>
+          <tr>
+          <td>Mathematics</td>
+          </tr>
+          <tr>
+          <td>English A</td>
+        </tr>
+          <tr>
+          <td>English B</td>
+        </tr>
+          <tr>
+          <td>Integrated Science</td>
+        </tr>
+          <tr>
+          <td>Electronic Document Preparation and Management</td>
+        </tr>
+          <tr>
+          <td>Geography</td>
+        </tr>
+          <tr>
+          <td>Social Studies</td>
+        </tr>
+          <tr>
+          <td>Technical Drawing</td>
+        </tr>
+          <tr>
+          <td>Physics</td>
+        </tr>
+          <tr>
+          <td>Information Technology</td>
+        </tr>
+          <tr>
+          <td>Human and Social Biology</td>
+        </tr>
+          <tr>
+          <td>Biology</td>
+        </tr>
+          <tr>
+          <td>Chemistry</td>
+        </tr>
+          <tr>
+          <td>Additional Mathematics</td>
+        </tr>
+          <tr>
+          <td>Spanish</td>
+        </tr>
+       </tbody>
+      </table>
+
+      <table id= "table3" align="center">
+        <caption><h2>Volunteer Experience</h2></caption>
+        <thead>
+         <th>Organizations/Events</th>
+           <tbody>
+         <tr><td>Eco Trust Society</td></tr>
+         <tr><td>Biodiversity Conference of the Guianas Sheild</td></tr>
+         <tr><td>Red Cross</td></tr>
+       </tbody>
+       </table>
+     </div>
+  </div>
+</div>
+
+<div class="footer">
+  <center>
+  <a href="https://www.instagram.com/stephie.lj/" target="_blank"><img src="insta.png" width="50px" height="50px"></a>
+  <a href="https://www.facebook.com/stephanie.joseph.31337" target="_blank"><img src="fb.png" width="50px" height="50px"></a>
+  <a href="https://www.pinterest.com/stephiejoseph/" target="_blank"><img src="pin.png" width="50px" height="50px"></a>
+</center>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<link rel="stylesheet" href= "style.css">
+<link rel="icon" type="image/png" href="fav.png">
+<title>Stephanie Joseph</title>
+<style>
+ h3 {
+   text-decoration: underline
+ }
+ </style>
+</head>
+<body>
+
+<div class="header">
+<center><img src= "name.png"><center>
+</div>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Profile</a>
+  <a href="cv.html">Curriculum Vitae</a>
+  <a href="interests.html" class="active">Interests</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+<div class="row">
+  <div class="side">
+  </div>
+  <div class="main">
+    <h1>Hobbies</h1>
+<hr>
+
+<h3>A few of my hobbies</h3>
+
+<div id="myBtnContainer">
+<button class="btn active" onclick="filterSelection('all')"> Show all</button>
+<button class="btn" onclick="filterSelection('photo')"> Photography</button>
+<button class="btn" onclick="filterSelection('art')"> Art & Crafts</button>
+<button class="btn" onclick="filterSelection('travel')"> Traveling</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row1">
+<div class="column1 photo">
+  <div class="content">
+    <img src="pic0.jpg" alt="Crossing" style="width:100%">
+    <h4>Sunrise</h4>
+    <p>Kurupukari Crossing</p>
+  </div>
+</div>
+<div class="column1 photo">
+  <div class="content">
+  <img src="pic1.jpg" alt="Steps" style="width:100%">
+    <h4>Moco Moco</h4>
+    <p>999 Steps</p>
+  </div>
+</div>
+<div class="column1 travel">
+  <div class="content">
+  <img src="pic2.jpg" alt="Brazil" style="width:100%">
+    <h4>Boa Vista, Brazil</h4>
+    <p>Water Front</p>
+  </div>
+</div>
+
+<div class="column1 travel">
+  <div class="content">
+    <img src="pic3.jpg" alt="Mountain" style="width:100%">
+    <h4>Moco Moco</h4>
+    <p>Kanuku Mountains</p>
+  </div>
+</div>
+<div class="column1 travel">
+  <div class="content">
+  <img src="pic4.jpg" alt="Ranch" style="width:100%">
+    <h4>Moco Moco</h4>
+    <p>Agua Branco Ranch</p>
+  </div>
+</div>
+<div class="column1 photo">
+  <div class="content">
+    <img src="pic6.jpg" alt="Mountain" style="width:100%">
+    <h4>Moco Moco</h4>
+    <p>Kanuku Mountain</p>
+  </div>
+</div>
+<div class="column1 photo">
+  <div class="content">
+  <img src="pic7.jpg" alt="Sunset" style="width:100%">
+    <h4>Moco Moco</h4>
+    <p>Sunset</p>
+  </div>
+</div>
+<div class="column1 people">
+  <div class="content">
+  <img src="pic8.jpg" alt="Car" style="width:100%">
+    <h4>Man</h4>
+    <p>Lorem ipsum dolor..</p>
+  </div>
+</div>
+<div class="column1 photo">
+  <div class="content">
+  <img src="pic9.jpg" alt="Trees" style="width:100%">
+    <h4>Lethem</h4>
+    <p>Mango Trees</p>
+  </div>
+</div>
+<div class="column1 travel">
+  <div class="content">
+  <img src="pic11.jpg" alt="Waterfalls" style="width:100%">
+    <h4>Moco Moco</h4>
+    <p>Sky Valley Waterfalls</p>
+  </div>
+</div>
+<div class="column1 photo">
+  <div class="content">
+  <img src="pic12.jpg" alt="Bridge" style="width:100%">
+    <h4>Moco Moco</h4>
+    <p>Sky Valley Waterfalls</p>
+  </div>
+</div>
+<div class="column1 photo">
+  <div class="content">
+  <img src="pic13.jpg" alt="Fountain" style="width:100%">
+    <h4>Botanical Gardens</h4>
+    <p>Water Fountain</p>
+  </div>
+</div>
+<div class="column1 travel">
+  <div class="content">
+  <img src="pic14.jpg" alt="Car" style="width:100%">
+    <h4>Lethem Trail</h4>
+    <p>Butterflies</p>
+  </div>
+</div>
+<div class="column1 photo">
+  <div class="content">
+  <img src="pic15.jpg" alt="Snake" style="width:100%">
+    <h4>Palm Beach Zoo</h4>
+    <p>Snake</p>
+  </div>
+</div>
+<div class="column1 Travel">
+  <div class="content">
+  <img src="pic16.jpg" alt="Flamingo" style="width:100%">
+    <h4>Palm Beach Zoo, Florida</h4>
+    <p>Flamingos</p>
+  </div>
+</div>
+<div class="column1 travel">
+  <div class="content">
+  <img src="pic17.jpg" alt="Sky" style="width:100%">
+    <h4>Moco Moco</h4>
+    <p>Clear Sky</p>
+  </div>
+</div>
+<div class="column1 photo">
+  <div class="content">
+  <img src="pic18.jpg" alt="Flower" style="width:100%">
+    <h4>Promenade Gardens</h4>
+    <p>Flower</p>
+  </div>
+</div>
+<div class="column1 photo">
+  <div class="content">
+  <img src="pic19.jpg" alt="Sunset" style="width:100%">
+    <h4>Bay</h4>
+    <p>Sunset</p>
+  </div>
+</div>
+<div class="column1 art">
+  <div class="content">
+  <img src="art2.jpg" alt="Painting" style="width:100%">
+    <h4>Painting</h4>
+    <p>Farm Animals</p>
+  </div>
+</div>
+<div class="column1 travel">
+  <div class="content">
+  <img src="pic20.jpg" alt="Cave" style="width:100%">
+    <h4>Alabama</h4>
+    <p>Cathedral Caverns</p>
+  </div>
+</div>
+<div class="column1 art">
+  <div class="content">
+  <img src="art5.jpg" alt="Card" style="width:100%">
+    <h4>Card</h4>
+    <p>Birthday Card</p>
+  </div>
+</div>
+<div class="column1 art">
+  <div class="content">
+  <img src="art1.jpg" alt="Painting" style="width:100%">
+    <h4>Acrylic Painting</h4>
+    <p>Colourful Owl</p>
+  </div>
+</div>
+
+<div class="column1 Art">
+  <div class="content">
+  <img src="art7.jpg" alt="Art" style="width:100%">
+    <h4>Card</h4>
+    <p>Birthday Card</p>
+  </div>
+</div>
+<!-- END GRID -->
+</div>
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column1");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+  </div>
+</div>
+
+<div class="footer">
+  <center>
+  <a href="https://www.instagram.com/stephie.lj/" target="_blank"><img src="insta.png" width="50px" height="50px"></a>
+  <a href="https://www.facebook.com/stephanie.joseph.31337" target="_blank"><img src="fb.png" width="50px" height="50px"></a>
+  <a href="https://www.pinterest.com/stephiejoseph/" target="_blank"><img src="pin.png" width="50px" height="50px"></a>
+</center>
+</div>
+
+</body>
+</html>
